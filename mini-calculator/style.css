@@ -1,0 +1,87 @@
+body{
+    background-color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Calculator{
+    background-color: skyblue;
+    padding: 27px;
+    width: 360px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 12px;
+    text-align: center;
+    text-shadow: 0cap;
+}
+H2{
+    color: rgb(224, 9, 131);
+     font-size: xx-large;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.input-box{
+    padding: 0.1rem;
+    border-radius: 8px;
+    margin: 0.5rem;
+    width: 250px;
+    margin-left: 2rem;
+    height: 35px;
+    display: block;
+    
+}
+.input-box:focus{
+    background-color: rgb(241, 216, 224);
+}
+
+.btn{
+    padding: 0.4rem;
+    margin: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: pink;
+    border: none;
+
+}
+
+.btn:hover{
+    background-color: rgb(243, 80, 205);
+    transition: none;
+}
+
+.resu{
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: lightskyblue;
+    color: rgb(233, 13, 87);
+    padding: 0.1rem;
+}
+.number-button{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+    width: 100%;
+
+}
+
+.number-button .num-btn:last-child{
+    grid-column: 2;
+}
+
+.num-btn{
+    background-color: rgb(250, 96, 193);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: x-large;
+    cursor: pointer;
+    padding: 9px;
+}
+
+.num-btn:hover{
+    background-color: hotpink;
+}
